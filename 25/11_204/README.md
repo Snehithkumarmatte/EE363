@@ -110,8 +110,8 @@ Visit the app in your browser at [http://127.0.0.1:5000/](http://127.0.0.1:5000/
 | Visualization | Matplotlib, Seaborn                    |
 | Data          | NASA Prognostics Data Repository       |
 
-## 📽 Demo
-🎥 Watch the full demo here: [*Add Your YouTube Link Here*]
+## 📽 video
+🎥 Watch the full video https://drive.google.com/file/d/1nBCN-WwMf0GaRWh8786dTDX6URa8MeGb/view?usp=sharing)
 
 ## 👨‍💻 Team Information
 
