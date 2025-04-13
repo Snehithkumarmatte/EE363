@@ -79,13 +79,15 @@ cd [repository-name]
 pip install -r requirements.txt
 ```
 
-##🔐 Environment Configuration
-Create a .env file in the root directory and add:
+# 🔐 Environment Configuration
+Create a `.env` file in the root directory and add:
 
 ```env
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
-##▶️ Running the Application
+
+#▶️ Running the Application
+
 ```bash
 python app.py
 Then visit: http://localhost:8501
