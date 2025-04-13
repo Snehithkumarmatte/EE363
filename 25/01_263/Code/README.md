@@ -86,26 +86,30 @@ Create a `.env` file in the root directory and add:
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
-#▶️ Running the Application
+# ▶️ Running the Application
 
 ```bash
 python app.py
-Then visit: http://localhost:8501
 ```
-##📚 Usage Guide
-###📤 Upload Documents
+Then visit: http://localhost:8501
+
+## 📚 Usage Guide
+
+### 📤 Upload Documents  
 Upload files via the sidebar. The system extracts content and indexes it for retrieval.
 
-###💬 Chat and Retrieve
+### 💬 Chat and Retrieve  
 Ask questions using the chat interface. The system retrieves relevant chunks and generates answers using the Gemini LLM.
 
-###📈 Feedback and Learning
+### 📈 Feedback and Learning  
 Provide relevance feedback on the retrieved documents. The system uses it to improve future results and logs learning events.
 
-###🧾 Session Management
+### 🧾 Session Management  
 Save and load past conversations, track new knowledge, and manage your knowledge base.
 
-##📁 Project Structure
+
+## 📁 Project Structure
+
 ```bash
 ml/
 ├── app.py                 # Main application
@@ -122,18 +126,17 @@ ml/
     │   └── learner.py
     └── utils/
         └── config.py
+
 ```
-##🔮 Future Enhancements
-🧾 OCR and image-based text extraction
+## 🔮 Future Enhancements
 
-🧠 Personalized learning profiles
+- 🧾 OCR and image-based text extraction  
+- 🧠 Personalized learning profiles  
+- ⚡ Faster response times with caching  
+- 🗃️ Better document classification  
+- 📡 Real-time API support  
 
-⚡ Faster response times with caching
+## 🤝 Contributing
 
-🗃️ Better document classification
-
-📡 Real-time API support
-
-##🤝 Contributing
 Open to feature suggestions, bug reports, or pull requests. Let’s build together!
 
