@@ -8,6 +8,7 @@ This project implements various deep learning models (MambaNet, AutoReformer, DL
 - Shivam Kumar - 522242
 - Satya Pavan - 522146
 - Jayavarapu Varshitha - 522137
+- Devkinandan Shakywal - 522124
 
 ## Project Explanation
 Watch our project explanation:
