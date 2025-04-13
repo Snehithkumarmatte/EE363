@@ -1,93 +1,88 @@
-Adaptive Retrieval-Augmented Generation Learning (RAGL) System
-🎥 Project Demo on YouTube 
+# Adaptive Retrieval-Augmented Generation Learning (RAGL) System  
+🎥 **[Project Demo on YouTube](https://youtu.be/gpIohWJ3XwA)**
 
-Project Overview
-The Adaptive RAGL System is an intelligent learning assistant built on the Retrieval-Augmented Generation (RAG) framework. It continuously learns from user interactions, updates its knowledge base in real time, and delivers contextual responses using advanced Large Language Models (LLMs).
+---
 
-Figure: UML diagrams illustrating the high-level design of the Adaptive RAGL System.
+## 📘 Project Overview  
+The **Adaptive RAGL System** is an intelligent learning assistant built on the Retrieval-Augmented Generation (RAG) framework. It continuously learns from user interactions, updates its knowledge base in real time, and delivers contextual responses using advanced Large Language Models (LLMs).  
 
-🔑 Key Features
-🗃️ Multi-Format Document Processing
+> *Figure: UML diagrams illustrating the high-level design of the Adaptive RAGL System.*
+
+---
+
+## 🔑 Key Features
+
+### 🗃️ Multi-Format Document Processing  
 Supports ingestion and processing of diverse document formats:
+- PDF  
+- Word (DOC, DOCX)  
+- Excel (XLS, XLSX)  
+- PowerPoint (PPT, PPTX)  
+- CSV, JSON, XML, HTML  
+- Plain text (TXT, MD)
 
-PDF
+### 🧠 Intelligent Learning Capabilities  
+- Continuous, incremental learning from documents and user inputs  
+- Adaptive retrieval using vector search  
+- Feedback-based system improvement  
+- Metadata tracking and event logging
 
-Word (DOC, DOCX)
+### 💻 User-Friendly Interface  
+- Streamlit-based real-time chat UI  
+- Upload and manage documents via sidebar  
+- Learning events and session history tracking  
 
-Excel (XLS, XLSX)
+---
 
-PowerPoint (PPT, PPTX)
+## ⚙️ Technical Architecture  
 
-CSV, JSON, XML, HTML
+### Core Components  
+**Vector Database (FAISS)**  
+- Efficient similarity search using vector embeddings  
+- Dynamic index updates  
 
-Plain text (TXT, MD)
+**Document Processor**  
+- Format-specific loaders and parsers  
+- Text chunking and metadata extraction  
 
-🧠 Intelligent Learning Capabilities
-Continuous, incremental learning from documents and user inputs
+**RAG System**  
+- Combines retrieval and generation for accurate answers  
+- Updates knowledge dynamically  
 
-Adaptive retrieval using vector search
+**LLM Integration**  
+- Google Gemini AI for generation  
+- LangChain for orchestration and prompt tuning  
 
-Feedback-based system improvement
+---
 
-Metadata tracking and event logging
+## 🧰 Technology Stack
 
-💻 User-Friendly Interface
-Streamlit-based real-time chat UI
+| Layer     | Tools Used                                                 |
+|-----------|------------------------------------------------------------|
+| Backend   | Python 3.12, FAISS, LangChain, PyPDF2, python-docx, pandas, python-pptx |
+| Frontend  | Streamlit, Custom CSS                                      |
+| LLM       | Google Gemini (via API)                                    |
 
-Upload and manage documents via sidebar
+---
 
-Learning events and session history tracking
+## 🚀 Setup Instructions
 
-⚙️ Technical Architecture
-Core Components
-Vector Database (FAISS)
+### 📋 Prerequisites  
+- Python 3.12+  
+- Google Gemini API Key  
+- Git
 
-Efficient similarity search using vector embeddings
-
-Dynamic index updates
-
-Document Processor
-
-Format-specific loaders and parsers
-
-Text chunking and metadata extraction
-
-RAG System
-
-Combines retrieval and generation for accurate answers
-
-Updates knowledge dynamically
-
-LLM Integration
-
-Google Gemini AI for generation
-
-LangChain for orchestration and prompt tuning
-
-🧰 Technology Stack
-Layer	Tools Used
-Backend	Python 3.12, FAISS, LangChain, PyPDF2, python-docx, pandas, python-pptx
-Frontend	Streamlit, Custom CSS
-LLM	Google Gemini (via API)
-🚀 Setup Instructions
-📋 Prerequisites
-Python 3.12+
-
-Google Gemini API Key
-
-Git
-
-📦 Installation
-bash
-Copy
-Edit
+### 📦 Installation  
+```bash
 git clone [your-repository-url]
 cd [repository-name]
 pip install -r requirements.txt
-🔐 Environment Configuration
+```
+
+###🔐 Environment Configuration
 Create a .env file in the root directory and add:
 
-ini
+env
 Copy
 Edit
 GEMINI_API_KEY=your_gemini_api_key_here
@@ -99,17 +94,17 @@ python app.py
 Then visit: http://localhost:8501
 
 📚 Usage Guide
-Upload Documents
+📤 Upload Documents
 Upload files via the sidebar. The system extracts content and indexes it for retrieval.
 
-Chat and Retrieve
-Ask questions using the chat interface. The system retrieves relevant chunks and generates answers.
+💬 Chat and Retrieve
+Ask questions using the chat interface. The system retrieves relevant chunks and generates answers using the Gemini LLM.
 
-Feedback and Learning
-Provide feedback to improve responses. The system logs learning events.
+📈 Feedback and Learning
+Provide relevance feedback on the retrieved documents. The system uses it to improve future results and logs learning events.
 
-Session Management
-Save and load past conversations, manage the vector database, and export logs.
+🧾 Session Management
+Save and load past conversations, track new knowledge, and manage your knowledge base.
 
 📁 Project Structure
 bash
@@ -144,3 +139,10 @@ ml/
 🤝 Contributing
 Open to feature suggestions, bug reports, or pull requests. Let’s build together!
 
+yaml
+Copy
+Edit
+
+---
+
+✅ You can now save this as `README.md` in your GitHub repo, and it will render beautifully. If you'd
