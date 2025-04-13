@@ -2,6 +2,13 @@
 
 This project implements various deep learning models (MambaNet, AutoReformer, DLinear, XLSTM) for battery life prediction.
 
+## Team Members
+- Mehul Jain (Team Lead) - 522206
+- Krishna Tayal - 522152
+- Shivam Kumar - 522242
+- Satya Pavan - 522146
+- Jayavarapu Varshitha - 522137
+
 ## Project Explanation
 Watch our project explanation:
 [![Link]](https://youtu.be/syUTNftDMbQ?si=WCCgt6VHo51anUHa)
