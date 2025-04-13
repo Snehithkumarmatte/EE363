@@ -75,6 +75,13 @@ All generated plots and model outputs are saved in the `assets` folder:
 ├── assets/               # Output graphs and comparision with Model from research paper Transformer network for remaining useful life prediction of lithium-ion batteries(2022) and visualizations and Presentation
 ```
 
+#### Model Performance Comparison
+![Model Comparison](assets/Final_Output.jpg)
+*Figure 1: Comparison of prediction accuracy across different batteries*
+
+![Model Comparison](assets/Comparison_Output.jpg)
+*Figure 2: Comparison with recent Research Model predicitions*
+
 ## System Requirements
 
 - Python 3.8+
