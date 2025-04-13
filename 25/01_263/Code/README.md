@@ -6,7 +6,6 @@
 ## 📘 Project Overview  
 The **Adaptive RAGL System** is an intelligent learning assistant built on the Retrieval-Augmented Generation (RAG) framework. It continuously learns from user interactions, updates its knowledge base in real time, and delivers contextual responses using advanced Large Language Models (LLMs).  
 
-> *Figure: UML diagrams illustrating the high-level design of the Adaptive RAGL System.*
 
 ---
 
